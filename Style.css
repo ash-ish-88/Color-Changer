@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding : 0;
+}
+body,html{
+  height:100%;
+  width : 100%;
+}
+.allbutton{
+  display:flex;
+  justify-content: center;
+  align-items : center;
+  height: 30%;
+  gap : 10px;
+  /* justify-content: space-between; */
+
+}
+.button{
+  height : 80px;
+  width : 96px;
+  border : 2px solid black;
+  
+}
+h1{
+  text-align:center;
+}
+#grey{
+  background-color: grey;
+  cursor: pointer;
+}
+#white{
+  background-color: white;
+  cursor: pointer;
+
+}
+#blue{
+  background-color: blue;
+  cursor: pointer;
+
+}
+#yellow{
+  background-color:yellow;
+  cursor: pointer;
+
+}
